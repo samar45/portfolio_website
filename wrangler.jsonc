@@ -1,0 +1,10 @@
+{
+  // Tells `wrangler deploy` this is a static site and where the built
+  // files live. No Worker script needed — Cloudflare serves ./dist from
+  // the edge directly. Renamed here becomes your *.workers.dev subdomain.
+  "name": "portfolio-website",
+  "compatibility_date": "2025-09-09",
+  "assets": {
+    "directory": "./dist"
+  }
+}
