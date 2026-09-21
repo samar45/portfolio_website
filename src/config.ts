@@ -53,11 +53,11 @@ export const projects: {
   source?: string;
 }[] = [
   {
-    title: 'AlgoForge',
+    title: 'Hone',
     description:
       "A local-first desktop app that teaches DSA the way LeetCode doesn't. An AI coach — running entirely on your machine through Ollama — gives hints instead of answers, explains your own code, and analyzes its complexity. 125 problems, animated algorithm visualizations, a Python/JS code runner, and a guided first-run setup, packaged as a downloadable Windows app.",
     tags: ['LLM', 'Next.js', 'Electron'],
-    link: 'https://github.com/samar45/AlgoForge-releases',
+    link: 'https://github.com/samar45/Hone-releases',
   },
   {
     title: 'Thermal Insights',

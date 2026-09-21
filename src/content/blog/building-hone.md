@@ -1,5 +1,5 @@
 ---
-title: 'Building AlgoForge: a DSA coach that runs on your own machine'
+title: 'Building Hone: a DSA coach that runs on your own machine'
 description: "Why I built a local-first LeetCode alternative with an AI coach that hints instead of spoiling — and the engineering that turned out to be the hard part."
 date: 2026-09-21
 tags: ['LLM', 'local-ai', 'side-project', 'dsa']
@@ -15,7 +15,7 @@ a green checkmark or a wrong-answer, no sense of the idea you missed, no read on
 your complexity, no one to nudge you when you're stuck. So you either stare at the
 screen or peek at the solution and learn nothing.
 
-I wanted the opposite: something that coaches. So I built **AlgoForge** — a
+I wanted the opposite: something that coaches. So I built **Hone** — a
 desktop app that teaches DSA by helping you build the logic yourself, with an AI
 mentor that runs **entirely on your machine**.
 
@@ -70,5 +70,5 @@ a learning tool you reach for every day, that felt right.
 
 > *"Talk is cheap. Show me the code."* — Linus Torvalds
 
-AlgoForge is my attempt to take that seriously: less talking about problems, more
+Hone is my attempt to take that seriously: less talking about problems, more
 building the intuition to actually solve them.
