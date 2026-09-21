@@ -53,6 +53,13 @@ export const projects: {
   source?: string;
 }[] = [
   {
+    title: 'AlgoForge',
+    description:
+      "A local-first desktop app that teaches DSA the way LeetCode doesn't. An AI coach — running entirely on your machine through Ollama — gives hints instead of answers, explains your own code, and analyzes its complexity. 125 problems, animated algorithm visualizations, a Python/JS code runner, and a guided first-run setup, packaged as a downloadable Windows app.",
+    tags: ['LLM', 'Next.js', 'Electron'],
+    link: 'https://github.com/samar45/AlgoForge-releases',
+  },
+  {
     title: 'Thermal Insights',
     description:
       'A geospatial tool that pulls ground temperature and vegetation health out of satellite imagery — turning raw remote-sensing data into readable environmental signals.',
@@ -92,4 +99,5 @@ export const projects: {
 // Social links. Add your LinkedIn URL when you have it handy.
 export const socials: { label: string; url: string }[] = [
   { label: 'GitHub', url: 'https://github.com/samar45' },
+  { label: 'LinkedIn', url: 'https://www.linkedin.com/in/mohanty-samar/' },
 ];
