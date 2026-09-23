@@ -16,7 +16,7 @@ const fmt = (d: Date) =>
     <p class="reveal" style="max-width:34rem">Articles, notes, and things I'm figuring out.</p>
 
     <div class="list reveal">
-      {posts.length === 0 && <p class="muted">No posts yet — check back soon.</p>}
+      {posts.length === 0 && <p class="muted">No posts yet, check back soon.</p>}
       {posts.map((post) => (
         <a class="card post" href={`/blog/${post.id}`}>
           <span class="muted">{fmt(post.data.date)}</span>

@@ -25,6 +25,7 @@ const fmt = (d: Date) =>
     <p class="tagline reveal">{site.tagline}</p>
     <div class="actions reveal">
       <a href="/#work" class="btn btn-primary">View my work →</a>
+      <a href={site.resume} target="_blank" rel="noopener" class="btn btn-ghost">Download resume ↓</a>
       <a href={`mailto:${site.email}`} class="btn btn-ghost">Get in touch</a>
     </div>
     <div class="socials reveal">
@@ -37,7 +38,7 @@ const fmt = (d: Date) =>
 
   <!-- ============ ABOUT ============ -->
   <section id="about" class="section wrap reveal">
-    <span class="label">01 — About</span>
+    <span class="label">01 / About</span>
     <div class="about-grid">
       <div>
         {about.map((para) => <p class="about-p">{para}</p>)}
@@ -53,7 +54,7 @@ const fmt = (d: Date) =>
 
   <!-- ============ WORK ============ -->
   <section id="work" class="section wrap reveal">
-    <span class="label">02 — Selected work</span>
+    <span class="label">02 / Selected work</span>
     <div class="bento">
       {projects.map((p, i) => (
         <a
@@ -79,7 +80,7 @@ const fmt = (d: Date) =>
   <!-- ============ WRITING ============ -->
   {posts.length > 0 && (
     <section id="writing" class="section wrap reveal">
-      <span class="label">03 — Writing</span>
+      <span class="label">03 / Writing</span>
       <div class="posts">
         {posts.map((post) => (
           <a class="card post" href={`/blog/${post.id}`}>
